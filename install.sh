@@ -45,7 +45,7 @@ main() {
 
   chmod +x ~/.git_template/hooks/commit-msg
   
-  git config --global core.hooksPathr ~/.git_template/hooks
+  git config --global core.hooksPath ~/.git_template/hooks
 
 
   _green "Golang pre-commit hook & commit-msg hook Install Success!"
