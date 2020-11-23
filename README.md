@@ -41,5 +41,8 @@ commit Subject:对变更内容的描述
 里面执行 curl -kSL https://raw.githubusercontent.com/zhenyuqiaotencent/git_hooks/main/install.sh | sh
 针对历史存量的本地仓库，需要在每个仓库下重新执行“git init”才能让脚本生效
 
+### 环境条件
+window下需要手动下载安装curl，地址 https://curl.se/windows/ 
+
 使用过程有任何问题，可联系zhenyuqiao
  
