@@ -45,9 +45,12 @@ main() {
   fi
   
 
-  curl https://git.code.oa.com/zhenyuqiao/git-hooks/blob/master/git_commit_msg.sh -o ~/.git_template/hooks/commit-msg
+  curl https://raw.githubusercontent.com/zhenyuqiaotencent/git_hooks/main/git_commit_msg.sh -o ~/.git_template/hooks/commit-msg
 
-  git config --global init.templatedir ~/.git_template
+  chmod +x ~/.git_template/hooks/commit-msg
+  
+  git config --global core.hooksPathr ~/.git_template/hooks
+
 
   _green "Golang pre-commit hook & commit-msg hook Install Success!"
 }
