@@ -30,10 +30,6 @@ _exists() {
 }
 
 main() {
-  if [ "$(uname -s)" != "Darwin" ]; then
-    _red "Unsupported operating system, Darwin?";
-    return 1;
-  fi
 
   if [ ! -d ~/.git_template/hooks ]; then
     mkdir -p ~/.git_template/hooks
