@@ -44,5 +44,9 @@ commit Subject:对变更内容的描述
 ### 环境条件
 window下需要手动下载安装curl，地址 https://curl.se/windows/ 
 
+# 脚本卸载
+1.执行git config --global core.hooksPath ，找到GIT全局HOOKS的存储位置
+2.手工删除掉commit-msg文件
+
 使用过程有任何问题，可联系zhenyuqiao
  
